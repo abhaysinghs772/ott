@@ -1,47 +1,23 @@
-# Dependency directories
-node_modules/
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# Optional npm cache directory
-.npm
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
 
-# Environment-specific files
-.env
-.env.local
-.env.*.local
-.env.development
-.env.test
-.env.production
+# testing
+/coverage
 
-# Log files
-logs/
-*.log
-npm-debug.log*
+# production
+/build
 
-# Build directories
-build/
-dist/
-
-# Output of 'npm pack'
-*.tgz
-
-# Yarn integrity file
-.yarn-integrity
-
-# dotenv environment variables file
-.env.local
-
-# OS or Editor temporary files
+# misc
 .DS_Store
-Thumbs.db
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# Compiled binary addons (Node.js bindings)
-/build/Release/
-
-# Local IDE settings
-.vscode/
-.idea/
-
-# Coverage output
-coverage/
-
-package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
