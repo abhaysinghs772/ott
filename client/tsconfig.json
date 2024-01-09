@@ -2,6 +2,7 @@
     "compilerOptions": {
       "target": "esnext",
       "module": "esnext",
+      "rootDir": "./",
       "moduleResolution": "node",
       "strict": true,
       "esModuleInterop": true,
@@ -13,7 +14,7 @@
       "allowSyntheticDefaultImports": true,
       "resolveJsonModule": true,
       "isolatedModules": true,
-      "noEmit": true,
+      "noEmit": false,
       "incremental": true
     },
     "include": [
